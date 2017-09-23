@@ -43,10 +43,10 @@ class StackWithMax : public Stack
 {
     public:
         /**
-         * @brief Inserts a new element into the stack
+         * @brif Returns the maximum element in the stack.
+         *       If the stack is empty, return -1
          *
-         * @return Returns the maximum element in the stack.
-         *         If the stack is empty, return -1
+         * @return The maximum element
          *
          */
         int getMax();
