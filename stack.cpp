@@ -25,3 +25,30 @@ int Stack::peak()
     return stack.back();
 }
 
+int StackWithMax::getMax()
+{
+    if (max.empty())
+    {
+        return -1;
+    }
+    return max.back();
+}
+
+int StackWithMax::pop()
+{
+    int element = Stack::pop();
+    if (element != -1 && element == getMax())
+    {
+        max.pop_back();
+    }
+    return element;
+}
+
+void StackWithMax::push(int element)
+{
+    if (element >= getMax())
+    {
+        max.push_back(element);
+    }
+    Stack::push(element);
+}
