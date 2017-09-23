@@ -2,14 +2,14 @@
 #include <vector>
 
 /**
- * @brief Super simple stack data structure that uses a vector.
+ * @brief Super simple int stack data structure that uses a vector.
  *
  */
 class Stack
 {
     public:
         /**
-         * @brief inserts a new element into the stack
+         * @brief Inserts a new element into the stack
          *
          * @param[in] element - element to be added to the top of the stack
          *
