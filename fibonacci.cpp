@@ -1,3 +1,9 @@
+/**
+ * @brief Calculate the fibonacci sequence
+ *
+ * @param[in] n - Fibonacci number to calculate
+ *
+ */
 int fibonacci(int n)
 {
     // Error
