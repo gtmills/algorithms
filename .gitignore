@@ -33,9 +33,13 @@
 palindrome
 stack
 linked-list
+fibonacci
+grandchild
+
 
 # http://www.gnu.org/software/automake
 Makefile.in
+Makefile
 /ar-lib
 /mdate-sh
 /py-compile
@@ -48,9 +52,13 @@ Makefile.in
 /compile
 /config.guess
 /config.h.in
+/config.h
+/config.log
+/config.status
 /config.sub
 /configure
 /configure.scan
+.deps
 /depcomp
 /install-sh
 /missing
