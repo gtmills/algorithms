@@ -14,4 +14,8 @@ To clean the repository run `./bootstrap clean`.
 
 ## Completed
 
-
+* Fibonacci, a recursive function to calculate the fibonacci of a number
+* Max Stack, a stack that returns the maxium element in O(1) time
+* Palindrome, is a word a palindrome
+* Linked List, a singly linked list
+* Grandchild, creates a grandchild pid and prints process ids
