@@ -3,7 +3,9 @@ AM_DEFAULT_SOURCE_EXT = .cpp
 sbin_PROGRAMS = \
     linked-list \
     stack \
-    palindrome
+    palindrome \
+    grandchild \
+    fibonacci
 
 linked_list_SOURCES = \
     linked_list.cpp \
@@ -15,3 +17,9 @@ stack_SOURCES = \
 
 palindrome_SOURCES = \
     palindrome.cpp
+
+grandchild_SOURCES = \
+    grandchild.cpp
+
+fibonacci_SOURCES = \
+    fibonacci_main.cpp
