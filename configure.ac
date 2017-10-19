@@ -6,6 +6,8 @@ AM_INIT_AUTOMAKE([subdir-objects -Wall -Werror foreign])
 
 # Checks for programs
 AC_PROG_CXX
+
+CXX=g++
 CXXFLAGS=-std=c++1y
 AC_CONFIG_FILES([Makefile])
 AC_OUTPUT
