@@ -44,6 +44,13 @@ class linkedList
         void pushBack(int key);
 
         /**
+         * @brief Pop the node at the front of the list.
+         *
+         * @param[return] Node - The front node
+         */
+        Node popFront();
+
+        /**
          * @brief Pop the node at the back of the list.
          *        This is O(n) time because we must iterate list to
          *        find next to last.

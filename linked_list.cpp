@@ -35,6 +35,25 @@ void linkedList::pushBack(int key)
     }
 }
 
+Node linkedList::popFront()
+{
+    if (head == nullptr)
+    {
+        throw std::runtime_error("ERROR list empty");
+    }
+
+    Node tmp = *head;
+    if (head == tail)
+    {
+        // only one node in the list
+        head = tail = nullptr;
+        return tmp;
+    }
+
+    head = head->next;
+    return tmp;
+}
+
 Node linkedList::popBack()
 {
     if (head == nullptr)
