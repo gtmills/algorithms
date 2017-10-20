@@ -25,18 +25,24 @@ Node linkedList::popBack()
     {
         throw std::runtime_error("ERROR list empty");
     }
-    else
+
+    if (head == tail)
     {
-        Node* previous = head;
-        while (previous->next != tail)
-        {
-            previous = previous->next;
-        }
-        auto node = *previous->next;
-        previous->next = nullptr;
-        tail = previous;
-        return node;
+        // only one node in the list
+        Node tmp = *head;
+        head = tail = nullptr;
+        return tmp;
     }
+
+    Node* previous = head;
+    while (previous->next != tail)
+    {
+        previous = previous->next;
+    }
+    auto node = *previous->next;
+    previous->next = nullptr;
+    tail = previous;
+    return node;
 
 }
 

@@ -14,5 +14,13 @@ int main()
     std::cout << "Popped node from back: " << node.data << std::endl;
     std::cout << "New linked list:" << std::endl;
     list.print();
+    node = list.popBack();
+    std::cout << "Popped node from back: " << node.data << std::endl;
+    std::cout << "New linked list:" << std::endl;
+    list.print();
+    node = list.popBack();
+    std::cout << "Popped node from back: " << node.data << std::endl;
+    std::cout << "New linked list:" << std::endl;
+    list.print();
     return 0;
 }
