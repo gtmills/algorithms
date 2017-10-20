@@ -19,6 +19,22 @@ void linkedList::pushFront(int key)
 
 }
 
+void linkedList::pushBack(int key)
+{
+    auto node = new Node(key);
+    if (head == nullptr)
+    {
+        // empty list
+        head = node;
+        tail = node;
+    }
+    else
+    {
+        tail->next = node;
+        tail = node;
+    }
+}
+
 Node linkedList::popBack()
 {
     if (head == nullptr)
@@ -39,11 +55,10 @@ Node linkedList::popBack()
     {
         previous = previous->next;
     }
-    auto node = *previous->next;
+    auto node = *(previous->next);
     previous->next = nullptr;
     tail = previous;
     return node;
-
 }
 
 void linkedList::print()

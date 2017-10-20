@@ -32,9 +32,16 @@ class linkedList
         /**
          * @brief Create a new node at the front of the list
          *
-         * @param[in] data - the value of the new node
+         * @param[in] key - the value of the new node
          */
         void pushFront(int key);
+
+        /**
+         * @brief Create a new node at the back of the list
+         *
+         * @param[in] key - the value of the new node
+         */
+        void pushBack(int key);
 
         /**
          * @brief Pop the node at the back of the list.

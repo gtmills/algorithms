@@ -5,9 +5,9 @@ int main()
 {
 
     linkedList list;
-    list.pushFront(10);
     list.pushFront(13);
-    list.pushFront(15);
+    list.pushBack(15);
+    list.pushFront(10);
     std::cout << "Linked list:" << std::endl;
     list.print();
     auto node = list.popBack();
