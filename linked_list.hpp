@@ -58,6 +58,36 @@ class linkedList
          * @param[return] Node - The last node
          */
         Node popBack();
+        /**
+         * @brief Return the node at the back of the list.
+         *        Does not remove the node.
+         *
+         * @param[return] Node - The last node
+         */
+       // Node topBack();
+
+        /**
+         * @brief Return the node at the front of the list.
+         *        Does not remove the node.
+         *
+         * @param[return] Node - The front node
+         */
+       // Node topFront();
+
+        /**
+         * @brief Return if the key is in the list.
+         *
+         * @param[return] bool - True if key is in the list
+         */
+       // bool isKey(int key);
+
+        /**
+         * @brief Erase the key in the list. This only erases the first
+         *        occurrence of the key.
+         *
+         * @param[in] key - The value of the new node
+         */
+       // void Erase(int key);
 
         /**
          * @brief Print the linked list
