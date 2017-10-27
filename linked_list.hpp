@@ -58,13 +58,6 @@ class linkedList
          * @param[return] Node - The last node
          */
         Node popBack();
-        /**
-         * @brief Return the node at the back of the list.
-         *        Does not remove the node.
-         *
-         * @param[return] Node - The last node
-         */
-        Node topBack();
 
         /**
          * @brief Return the node at the front of the list.
@@ -75,7 +68,15 @@ class linkedList
         Node topFront();
 
         /**
-         * @brief Return if the key is in the list.
+         * @brief Return the node at the back of the list.
+         *        Does not remove the node.
+         *
+         * @param[return] Node - The last node
+         */
+        Node topBack();
+
+        /**
+         * @brief Return true if the key is in the list.
          *
          * @param[return] bool - True if key is in the list
          */
