@@ -64,7 +64,7 @@ class linkedList
          *
          * @param[return] Node - The last node
          */
-       // Node topBack();
+        Node topBack();
 
         /**
          * @brief Return the node at the front of the list.
@@ -72,22 +72,22 @@ class linkedList
          *
          * @param[return] Node - The front node
          */
-       // Node topFront();
+        Node topFront();
 
         /**
          * @brief Return if the key is in the list.
          *
          * @param[return] bool - True if key is in the list
          */
-       // bool isKey(int key);
+        bool isKey(int key);
 
         /**
-         * @brief Erase the key in the list. This only erases the first
+         * @brief Erase the key in the list. This erases only the first
          *        occurrence of the key.
          *
          * @param[in] key - The value of the new node
          */
-       // void Erase(int key);
+        void erase(int key);
 
         /**
          * @brief Print the linked list
