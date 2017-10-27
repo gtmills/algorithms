@@ -43,7 +43,7 @@ class StackWithMax : public Stack
 {
     public:
         /**
-         * @brif Returns the maximum element in the stack.
+         * @brief Returns the maximum element in the stack.
          *       If the stack is empty, return -1
          *
          * @return The maximum element
