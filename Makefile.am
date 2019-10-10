@@ -5,6 +5,7 @@ sbin_PROGRAMS = \
     stack \
     palindrome \
     grandchild \
+    two-sums \
     fibonacci
 
 linked_list_SOURCES = \
@@ -23,3 +24,6 @@ grandchild_SOURCES = \
 
 fibonacci_SOURCES = \
     fibonacci_main.cpp
+
+two_sums_SOURCES = \
+    two_sums.cpp
